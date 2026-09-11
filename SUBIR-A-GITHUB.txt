@@ -1,0 +1,28 @@
+BahiaGo 2.0 — instrucciones de subida
+=====================================
+
+1) Descomprime este ZIP.
+2) En GitHub crea un repositorio publico (ej. BahiaGo2.0).
+3) En el repo: Add file → Upload files.
+4) Arrastra TODOS estos archivos y la carpeta icons:
+     index.html
+     manifest.webmanifest
+     manifest.json
+     sw.js
+     .nojekyll
+     README.md
+     icons/   (carpeta completa)
+5) Commit changes.
+6) Settings → Pages → Deploy from a branch → main → / (root) → Save.
+7) Espera 1-2 minutos y abre:
+     https://TU_USUARIO.github.io/NOMBRE_DEL_REPO/
+
+NOTA sobre .nojekyll:
+- Es un archivo vacio necesario (o recomendable) en GitHub Pages.
+- Si al subir desde la web no ves archivos que empiezan por punto,
+  puedes crearlo en el repo asi:
+  Add file → Create new file → nombre exacto: .nojekyll → Commit
+  (dejalo vacio, sin contenido).
+
+Android: Chrome → Instalar aplicacion
+iPhone: Safari → Compartir → Anadir a pantalla de inicio
